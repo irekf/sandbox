@@ -1,0 +1,13 @@
+[package]
+name = "python"
+version = "0.1.0"
+authors = ["Irek Fakhrutdinov <irekfakh@gmail.com>"]
+
+[dependencies]
+libc = "0.2"
+rand = "0.4"
+
+[lib]
+name = "rust_ffi"
+crate-type = ["dylib"]
+
